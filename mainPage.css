@@ -1,0 +1,71 @@
+header {
+    text-align: center;
+    font-family: cursive;
+    font-size: 50px;
+    background-color: aliceblue;
+}
+
+.burger, .pizza, .fries, .chips {
+    display: inline-block;
+    margin: 30px 30px;
+    width: 600px;
+    height: 400px;
+}
+
+#burger_img, #pizza_img{
+    padding-top: 30px;
+    padding-left: 50px;
+    width:500px;
+}
+
+#chips_img {
+    width: 450px;
+    padding-top: 30px;
+    padding-left: 75px;
+}
+
+#fries_img{
+    width: 450px;
+    padding-top: 30px;
+    padding-left: 75px;
+}
+
+.burger:hover, .pizza:hover, .fries:hover, .chips:hover {
+    background-color: lightblue;
+}
+
+.pizza, .fries {
+    float: right;
+}
+
+.burger:hover #button{
+    transition: 0.5s;
+    transform: translateY(-30px);
+    opacity: 0.8;
+}
+
+.pizza:hover #button{
+    transition: 0.5s;
+    transform: translateY(-30px);
+    opacity: 0.8;
+}
+
+.fries:hover #button{
+    transition: 0.5s;
+    transform: translateY(-30px);
+    opacity: 0.8;
+}
+
+.chips:hover #button{
+    transition: 0.5s;
+    transform: translateY(-30px);
+    opacity: 0.8;
+}
+
+#button {
+    width: 500px;
+    text-align: center;
+    font-size: 20px;
+    margin-left: 50px;
+    opacity: 0;
+}
