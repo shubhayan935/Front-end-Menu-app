@@ -1,0 +1,43 @@
+<html>
+
+    <link rel="stylesheet" href="front-end practice.css">
+
+
+    <body>
+        <div class="head">
+            <header>MENU</header>
+            <ul>
+                <li><a href="front-end practice.html" id="home">Home</a></li>
+                <li><a href="news.asp" id="news">News</a></li>
+                <li><a href="cart.html" id="cart">Checkout</a></li>
+                <li><a href="about.asp" id="about">About</a></li>
+            </ul>
+        </div>
+        <div class="burger">
+            <img src="burger.jpg" id="burger_img">
+            <br>
+            <button onclick="addToCart('Burger', 5.99)">Add to Cart</button>
+        </div>
+        <div class="pizza">
+            <img src="pizza.jpg" id="pizza_img">
+            <br>
+            <button onclick="addToCart('Pizza', 5.99)">Add to Cart</button>
+        </div>
+        <div class="fries">
+            <img src="fries.jpeg" id="fries_img">
+            <br>
+            <button onclick="addToCart('Fries', 5.99)">Add to Cart</button>
+        </div>
+        <div class="chips">
+            <img src="chips.jpg" id="chips_img">
+            <br>
+            <button onclick="addToCart('Chips', 5.99)">Add to Cart</button>
+        </div>
+        <div class="cart">
+            <h2>Cart</h2>
+            <ul id="cart-items">Your Cart is Empty</ul>
+            <p>Total: $<span id="total">0.00</span></p>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
